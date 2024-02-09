@@ -1,10 +1,11 @@
+import { Contact } from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
-
+import './style.css'; 
 import Image from "next/image";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Team />
+      <Contact />
       <Footer />
       </div>
 
