@@ -1,5 +1,10 @@
 
 import Image from 'next/image'
+import active from "../../public/img/dummy/buildify.jpg"
+import active1 from "../../public/img/dummy/buildify1.jpg"
+import active2 from "../../public/img/dummy/buildify2.jpg"
+import active3 from "../../public/img/dummy/buildify3.jpg"
+import active4 from "../../public/img/dummy/buildify4.jpg"
 export default function Portfolio() {
 	return (
 		<div id="portfolio" className="section relative z-0 py-12 md:py-16 bg-white ">
@@ -30,7 +35,7 @@ export default function Portfolio() {
 							className="glightbox3">
 
 							<Image
-								src="/buildify.jpg"
+								src={active}
 								className="block w-full h-auto transform duration-500  hover:scale-125"
 								width={500}
 								height={500}
@@ -53,7 +58,7 @@ export default function Portfolio() {
 							className="glightbox3">
 
 							<Image
-								src="/buildify1.jpg"
+								src={active1}
 								className="block w-full h-auto transform duration-500  hover:scale-125"
 								width={500}
 								height={500}
@@ -76,7 +81,7 @@ export default function Portfolio() {
 							className="glightbox3">
 
 							<Image
-								src="/buildify2.jpg"
+								src={active2}
 								className="block w-full h-auto transform duration-500  hover:scale-125"
 								width={500}
 								height={500}
@@ -99,7 +104,7 @@ export default function Portfolio() {
 							className="glightbox3">
 
 							<Image
-								src="/buildify3.jpg"
+								src={active3}
 								className="block w-full h-auto transform duration-500  hover:scale-125"
 								width={500}
 								height={500}
@@ -114,28 +119,7 @@ export default function Portfolio() {
 					</div>
 				</figure>
 
-				<figure className="flex-shrink max-w-full px-3 w-full sm:w-1/2 lg:w-1/5 group wow fadeInUp"
-					data-wow-duration="1s" data-wow-delay=".5s">
-					<div className="relative overflow-hidden cursor-pointer mb-6">
-						<a href="src/img/dummy/buildify4.jpg" data-gallery="gallery1"
-
-							className="glightbox3">
-
-							<Image
-								src="/buildify4.jpg"
-								className="block w-full h-auto transform duration-500  hover:scale-125"
-								width={500}
-								height={500}
-								alt="Picture of the author"
-							/>
-							<div
-								className="absolute inset-x-0 bottom-0 h-20 transition-opacity duration-500 ease-in opacity-0 group-hover:opacity-100 overflow-hidden px-4 py-2 text-gray-100 bg-black text-center">
-								<h3 className="text-base leading-normal font-semibold my-1 text-white">Abuja</h3>
-
-							</div>
-						</a>
-					</div>
-				</figure>
+				
 
 			</div>
 		</div>
