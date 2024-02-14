@@ -1,4 +1,3 @@
-
 :root {
     --primary: #68e1fd;
     --gray: #f9f9f9;
@@ -3337,4 +3336,12 @@ iframe.wait-autoplay {
         padding-bottom: 3rem;
     }
 }
+
+.image-container {
+   height: auto;
+    width: 50%;
+    margin: 0 auto;
+    /* adjust to your desired height */
+}
+
 

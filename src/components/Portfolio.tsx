@@ -51,17 +51,16 @@ export default function Portfolio() {
 			<div className="flex max-w-full px-3 w-full image-container image-slide">
 				<Carousel autoPlay={true}>
 					{images.map((image, index) => (
-						<figure key={index} className="w-full  group" >
+						<figure key={index} className="w-full h-full group" >
 							<img
 								src={image.src}
-								className="block w-full h-full transform duration-500  hover:scale-125"
+								className="block w-full h-full object-cover transform duration-500  hover:scale-125"
 								alt={image.alt}
 							/>
 						</figure>
 					))}
 				</Carousel>
 			</div>
-
 		</div>
 	);
 }

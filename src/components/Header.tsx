@@ -22,7 +22,7 @@ export default function Header() {
           <div className="container xl:max-w-6xl mx-auto px-4">
             <div className="lg:flex lg:justify-between">
               <div className="flex justify-between">
-                <div className="mx-w-10 text-4xl font-bold capitalize text-gray-900 flex items-center">Buildify
+                <div className="mx-w-10 text-4xl font-bold capitalize text-gray-900 flex items-center">Activemode
                 </div>
 
                 <div className="flex flex-row items-center py-4 lg:py-0">
